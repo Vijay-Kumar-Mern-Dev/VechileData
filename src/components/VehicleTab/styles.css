@@ -1,0 +1,160 @@
+.vehicle-tab-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.tab-title {
+  display: flex;
+}
+
+.vehicle-status-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.vehicle-status {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.vehicle-status-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.vehicle-status-display {
+  background-color: #f6f6f6;
+  padding: 20px 20px;
+  width: 100%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.vehicle-stat-graph {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.vehicle-status-list {
+  list-style: none;
+  padding: 0;
+  width: 50%;
+}
+
+.vehicle-features-list {
+  list-style: none;
+}
+
+.vehicle-features-list > li {
+  margin: 1rem 0;
+  width: 8rem;
+
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.feature-check-icon {
+  margin-right: 1rem;
+  font-size: 1rem;
+  color: green;
+}
+
+.vehicle-status-list > span {
+  display: inline-block;
+}
+
+.vehicle-status-list-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem 0;
+}
+
+.vehicle-status-item-title {
+  font-weight: bold;
+}
+
+.vehicle-stat-title-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.vehicle-stat-title-section {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.graph-title-box {
+  display: flex;
+  align-items: center;
+}
+
+.graph-type-button {
+  font-weight: 600;
+}
+
+.button-light {
+  background-color: #f5f5f5 !important;
+  color: black;
+  padding: 0;
+  cursor: pointer;
+  height: 2rem;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+}
+
+.button-dark:hover {
+  background-color: #f5f5f5;
+  color: #000;
+}
+
+.button-light:hover {
+  background-color: #424242 !important;
+  color: #fff;
+  outline: #424242;
+  border: none;
+}
+
+.graph-title-text {
+  color: #000;
+  font-weight: 600;
+  text-transform: none;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+
+.graph-display-container {
+  height: 100%;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.vehicle-table-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 2.5rem;
+}
+
+.vehicle-table-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.vehicle-table-display {
+  width: 100%;
+  margin-top: 1rem;
+}
